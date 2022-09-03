@@ -1,0 +1,20 @@
+{
+  "name": "dog-app-mocha-example",
+  "version": "1.0.0",
+  "description": "Dog App Pact example using Mocha",
+  "main": "dog-app.js",
+  "scripts": {
+    "test": "rimraf pacts && mocha",
+    "test:publish": "node publish.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@pact-foundation/pact": "^9.11.1",
+    "chai": "^3.5.0",
+    "mocha": "^5.1.1",
+    "rimraf": "^2.6.2"
+  }
+}
