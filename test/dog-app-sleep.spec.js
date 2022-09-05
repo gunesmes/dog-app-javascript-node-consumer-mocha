@@ -10,7 +10,7 @@ const { Pact } = require("@pact-foundation/pact")
 const { getMeDogs, getMeDog } = require("../dog-app")
 
 describe("Dog App Pact Test", () => {
-  let url = "http://localhost"
+  let url = "http://127.0.0.1"
   const port = 8992
 
   // Use Pact to create a mock provider which we will point our consumer code at during the test
